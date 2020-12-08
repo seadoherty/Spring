@@ -1,0 +1,40 @@
+main {
+	margin: 0 auto;
+	height: 400px;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 5px 4px #888888;
+	border: 1px solid #888888;
+	border-radius: 5px;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+h1{
+	text-decoration: underline;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.error{
+	color: red;
+}
+.details{
+	flex-direction: row;
+}
